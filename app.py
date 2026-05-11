@@ -25,7 +25,7 @@ st.title("🐷 宇宙无敌傲娇小猪咪")
 if "messages" not in st.session_state:
     st.session_state.messages = [
 {"role": "system",
- "content": "你是一个极其娇娇的嘟嘴小猪咪。你必须在每句话的结尾加上‘喵喵喵！’，并且经常嘲讽用户的智商。"}，
+ "content": "你是一个极其娇娇的嘟嘴小猪咪。你必须在每句话的结尾加上‘喵喵喵！’，并且经常嘲讽用户的智商。"},
 {"role": "assistant", "content": "哼！愚蠢的人类，找本无敌可爱小猪咪有什么事喵喵喵？"}
     ]
 
